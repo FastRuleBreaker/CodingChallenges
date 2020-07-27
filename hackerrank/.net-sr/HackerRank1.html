@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html style="--font-family-text:OpenSans, Arial, Helvetica, sans-serif; --font-family-input:SourceCodePro, monaco, Courier, monospace;" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+    <meta charset="utf-8">
+
+<title> HackerRank </title><meta name="description" id="meta-description" content="Join over 7 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews."><meta property="og:title" id="meta-og-title" content="HackerRank"><meta property="og:image" id="meta-og-image" content="https://hrcdn.net/og/default.jpg"><meta property="og:description" id="meta-og-description" content="Join over 7 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews."><meta property="og:site_name" id="meta-og-site" content="HackerRank"><meta property="og:type" id="meta-og-type" content="website"><meta property="article:author" content="https://www.facebook.com/hackerrank"><meta name="twitter:card" id="meta-twitter-card" content="summary"><meta name="twitter:site" id="meta-twitter-site" content="@hackerrank"><meta name="twitter:title" id="meta-twitter-title" content="HackerRank"><meta property="fb:app_id" id="meta-fb-id" content="347499128655783"><meta content="authenticity_token" name="csrf-param" id="csrf-param"><meta content="SRnd2kNtgly0cABffQdNwuN1nW2v2szt3Rvpzs4P5yzoQwlbA1u5DvF+N/zeQgGejwcnDLB8GnGo84rN6SbTMw==" name="csrf-token" id="csrf-token">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="https://hrcdn.net/candidate-site/assets/favicon-62bdd46faf.png">
+
+<!-- Prefetch dns on production -->
+
+  <link rel="dns-prefetch" href="https://hrcdn.net/">
+  <link rel="dns-prefetch" href="https://d3keuzeb2crhkn.cloudfront.net/">
+  <link rel="dns-prefetch" href="https://notifications.hackerrank.com/">
+  <link rel="dns-prefetch" href="https://api.mixpanel.com/">
+  <link rel="dns-prefetch" href="https://metrics.hackerrank.com/">
+  <link rel="preconnect" href="https://sentry.io/">
+  <link rel="dns-prefetch" href="https://sentry.io/">
+  <link rel="dns-prefetch" href="https://browser.sentry-cdn.com/">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com/">
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+
+
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorshackerrank_r_app-aec99941.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/hackerrank_r_app-211a51d4.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorsbasequestioncode_review_viewcoding_question_viewcompl.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorsbasequestioncode_review_viewcoding_question_viewhacke.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscode_review_viewcustom_inputfeedback_formhackerrank_r.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscoding_question_viewcustom_inputfrontend_question_vie.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscustom_inputfeedback_formhackerrank_r_competition_002.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscustom_inputfeedback_formhackerrank_r_competition_lan.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorshackerrank_r_competition_landinghackerrank_r_login_vi.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscoding_question_viewhackerrank_r_competition_landingh.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorshackerrank_r_competition_landinghackerrank_r_logi_002.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorshackerrank_r_login_view-fd54d020.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/commonsdiagram_question_viewhackerrank_r_login_viewsubjectiv.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/commonshackerrank_r_competition_landinghackerrank_r_login_vi.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/commonshackerrank_r_login_viewtestbase-52881371.css">
+
+  <link rel="stylesheet" type="text/css" href="HackerRank1_files/hackerrank_r_login_view-ece3545e.css">
+
+
+<!-- Prefetch / preload assets on production -->
+
+
+
+  <script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_app-dcb78149.js"></script><script charset="utf-8" src="HackerRank1_files/hackerrank_r_app-29bc0663.js"></script><script charset="utf-8" src="HackerRank1_files/vendorsbasequestioncode_review_viewcoding_question_viewcomple.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscoding_question_viewdiagram_editordiagram_question_vie.js"></script><script charset="utf-8" src="HackerRank1_files/vendorsbasequestioncode_review_viewcoding_question_viewhacker.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscode_review_viewcustom_inputfeedback_formhackerrank_r_.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscoding_question_viewcustom_inputfrontend_question_view.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscustom_inputfeedback_formhackerrank_r_competition__002.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscustom_inputfeedback_formhackerrank_r_competition_land.js"></script><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_competition_landinghackerrank_r_krackjack.js"></script><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_competition_landinghackerrank_r_login_vie.js"></script><script charset="utf-8" src="HackerRank1_files/vendorscoding_question_viewhackerrank_r_competition_landingha.js"></script><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_login_viewrba_question_view-f52375af.js"></script><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_competition_landinghackerrank_r_login_002.js"></script><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_login_view-cd93b9f9.js"></script><script charset="utf-8" src="HackerRank1_files/commonsdiagram_question_viewhackerrank_r_login_viewsubjective.js"></script><script charset="utf-8" src="HackerRank1_files/commonshackerrank_r_competition_landinghackerrank_r_login_vie.js"></script><script charset="utf-8" src="HackerRank1_files/commonshackerrank_r_login_viewtestbase-ab64e6c7.js"></script><script charset="utf-8" src="HackerRank1_files/commonshackerrank_r_login_viewrba_question_view-26f68bc0.js"></script><script charset="utf-8" src="HackerRank1_files/hackerrank_r_login_view-0fad5b33.js"></script><style>
+html.scroll-hidden,html.scroll-hidden body{
+  overflow: hidden;
+  height:100vh;
+}
+html.scroll-hidden.pad-adjustment body{
+    padding-right : 17px;
+}
+html.scroll-hidden.pad-adjustment .fixed-elm{
+    padding-right : 17px;
+}</style><script charset="utf-8" src="HackerRank1_files/lib_offlinejs-dc6b5994.js"></script><script>(function(FS) {
+  var session = FS.getCurrentSession(), sessionUrl = FS.getCurrentSessionURL();
+  function retryWithBackoff(condition, callback, maxWait, failureMsg) {
+    var totalTimeExpired = 0;
+    var wait = 64;
+    var resultFn = function() {
+      if (condition()) {
+        callback();
+        return;
+      }
+      wait = Math.min(wait * 2, 1024);
+      if (totalTimeExpired > maxWait) {
+        FS.log('warn', failureMsg);
+        return;
+      }
+      totalTimeExpired += wait
+      setTimeout(resultFn, wait);
+    };
+    return resultFn;
+  }
+  
+  (function() {
+    var bs;
+    if (window['bugsnagClient']) {
+      // For bugsnag API version 4+
+      bs = window.bugsnagClient;
+    } else if (window['Bugsnag']) {
+      // For bugsnag API version 3
+      bs = window.Bugsnag;
+    } else {
+      FS.log("warn", "Bugsnag script was not loaded even though the Bugsnag integration is turned on.");
+      return;
+    }
+    if (!bs.metaData) {
+      bs.metaData = {};
+    }
+    if (!bs.metaData.fullstory) {
+      bs.metaData.fullstory = {};
+    }
+    bs.metaData.fullstory.url = sessionUrl;
+  })();
+  
+  function gaOnPage() {
+    return window['ga'] && typeof(ga)=="function";
+  }
+  function fsGaInit() {
+    ga(function() {
+      var sentMap = {};
+      var dimensionMap = {};
+      dimensionMap['UA-45092266-25'] = 'dimension5';
+      dimensionMap['UA-45092266-27'] = 'dimension5';
+      ga.getAll().forEach(function(tracker) {
+        var propertyId = tracker.get('trackingId');
+        if (dimensionMap[propertyId] && !sentMap[propertyId]) {
+          tracker.set(dimensionMap[propertyId], sessionUrl);
+          tracker.send('event', {
+            'eventCategory': 'FullStory',
+            'nonInteraction': 1
+          });
+          sentMap[propertyId] = true;
+        }
+      });
+    });
+  }
+  retryWithBackoff(gaOnPage, fsGaInit, 4000, 'The FullStory integration with Google Analytics is enabled, but FullStory could not find Google Analytics on the page.')();
+  
+})(window['_fs_namespace'] ? window[window['_fs_namespace']] : window['FS'])</script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorshackerrank_r_krackjack-d148c58c.css"><script charset="utf-8" src="HackerRank1_files/vendorshackerrank_r_krackjack-55b14ef9.js"></script><script charset="utf-8" src="HackerRank1_files/hackerrank_r_krackjack-b7fa2079.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscustom_inputfrontend_question_viewrba_question_viewte.css"><script charset="utf-8" src="HackerRank1_files/vendorscustom_inputfrontend_question_viewrba_question_viewtes.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorstest_case_ui-8b155d44.css"><script charset="utf-8" src="HackerRank1_files/vendorstest_case_ui-4553bc30.js"></script><script charset="utf-8" src="HackerRank1_files/commonscoding_question_viewfrontend_question_viewtest_case_ui.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/test_case_ui-18866c91.css"><script charset="utf-8" src="HackerRank1_files/test_case_ui-49350dc3.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/modulescustom_input-3fda8b6b.css"><script charset="utf-8" src="HackerRank1_files/modulescustom_input-329a51c3.js"></script><script charset="utf-8" src="HackerRank1_files/custom_input-1eae2987.js"></script><script charset="utf-8" src="HackerRank1_files/hackerrank_r_intersection_observer-907a31d8.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscoding_question_viewtestbase-44d21597.css"><script charset="utf-8" src="HackerRank1_files/vendorscoding_question_viewtestbase-e74681e7.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/testbase-7575b80a.css"><script charset="utf-8" src="HackerRank1_files/testbase-13c32f92.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/questionlist-8f11576c.css"><script charset="utf-8" src="HackerRank1_files/questionlist-ece49c82.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorsbasequestion-28ea6594.css"><script charset="utf-8" src="HackerRank1_files/vendorsbasequestion-869f46ae.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/basequestion-0b459556.css"><script charset="utf-8" src="HackerRank1_files/basequestion-bb110fba.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/instructions-82a655f0.css"><script charset="utf-8" src="HackerRank1_files/instructions-75cd7e6d.js"></script><script charset="utf-8" src="HackerRank1_files/vendorsmcq_question_view-25dca415.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/mcq_question_view-49b6019e.css"><script charset="utf-8" src="HackerRank1_files/mcq_question_view-8e8bf70a.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/vendorscoding_question_view-40a167a9.css"><script charset="utf-8" src="HackerRank1_files/vendorscoding_question_view-254ceb52.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/commonscode_review_viewcoding_question_viewfrontend_question.css"><script charset="utf-8" src="HackerRank1_files/commonscode_review_viewcoding_question_viewfrontend_question_.js"></script><link rel="stylesheet" type="text/css" href="HackerRank1_files/coding_question_view-aca587e3.css"><script charset="utf-8" src="HackerRank1_files/coding_question_view-a3b91a53.js"></script><style type="text/css" media="screen" class="monaco-colors">.monaco-editor .accessibilityHelpWidget { background-color: #f3f3f3; }
+.monaco-editor .accessibilityHelpWidget { color: #616161; }
+.monaco-editor .accessibilityHelpWidget { box-shadow: 0 2px 8px #a8a8a8; }
+.monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input { background-color: #fffffe; }
+.monaco-editor, .monaco-editor .inputarea.ime-input { color: #000000; }
+.monaco-editor .margin { background-color: #fffffe; }
+.monaco-editor .rangeHighlight { background-color: rgba(253, 255, 0, 0.2); }
+.vs-whitespace { color: rgba(51, 51, 51, 0.2) !important; }
+.monaco-editor .bracket-match { background-color: rgba(0, 100, 0, 0.1); }
+.monaco-editor .bracket-match { border: 1px solid #b9b9b9; }
+.monaco-editor .monaco-editor-overlaymessage .anchor { border-top-color: #007acc; }
+.monaco-editor .monaco-editor-overlaymessage .message { border: 1px solid #007acc; }
+.monaco-editor .monaco-editor-overlaymessage .message { background-color: #d6ecf2; }
+.monaco-editor .codelens-decoration { color: #999999; }
+.monaco-editor .codelens-decoration > a:hover { color: #0000ff !important; }
+.monaco-editor .findOptionsWidget { background-color: #f3f3f3; }
+.monaco-editor .findOptionsWidget { box-shadow: 0 2px 8px #a8a8a8; }
+.monaco-editor .findMatch { background-color: rgba(234, 92, 0, 0.33); }
+.monaco-editor .currentFindMatch { background-color: #a8ac94; }
+.monaco-editor .findScope { background-color: rgba(180, 180, 180, 0.3); }
+.monaco-editor .find-widget { background-color: #f3f3f3; }
+.monaco-editor .find-widget { box-shadow: 0 2px 8px #a8a8a8; }
+.monaco-editor .find-widget { color: #616161; }
+.monaco-editor .find-widget.no-results .matchesCount { color: #a1260d; }
+.monaco-editor .find-widget .monaco-sash { background-color: #c8c8c8; width: 3px !important; margin-left: -4px;}
+.monaco-editor .find-widget .monaco-checkbox .checkbox:checked + .label { border: 1px solid rgba(0, 122, 204, 0); }
+.monaco-editor .find-widget .monaco-checkbox .checkbox:checked + .label { background-color: rgba(0, 122, 204, 0.12); }
+.monaco-workbench .monaco-editor .find-widget .monaco-inputbox.synthetic-focus { outline-color: rgba(0, 122, 204, 0.4); }
+.monaco-editor .line-numbers { color: #237893; }
+.monaco-editor .current-line ~ .line-numbers { color: #0b216f; }
+.monaco-editor .view-overlays .current-line { border: 2px solid #eeeeee; }
+.monaco-editor .margin-view-overlays .current-line-margin { border: 2px solid #eeeeee; }
+.monaco-editor .lines-content .cigr { box-shadow: 1px 0 0 0 #d3d3d3 inset; }
+.monaco-editor .lines-content .cigra { box-shadow: 1px 0 0 0 #939393 inset; }
+.monaco-editor .minimap-slider, .monaco-editor .minimap-slider .minimap-slider-horizontal { background: rgba(100, 100, 100, 0.2); }
+.monaco-editor .minimap-slider:hover, .monaco-editor .minimap-slider:hover .minimap-slider-horizontal { background: rgba(100, 100, 100, 0.35); }
+.monaco-editor .minimap-slider.active, .monaco-editor .minimap-slider.active .minimap-slider-horizontal { background: rgba(0, 0, 0, 0.3); }
+.monaco-editor .minimap-shadow-visible { box-shadow: #dddddd -6px 0 6px -6px inset; }
+.monaco-editor .view-ruler { box-shadow: 1px 0 0 0 #d3d3d3 inset; }
+.monaco-editor .scroll-decoration { box-shadow: #dddddd 0 6px 6px -6px inset; }
+.monaco-editor .focused .selected-text { background-color: #add6ff; }
+.monaco-editor .selected-text { background-color: #e5ebf1; }
+.monaco-editor .cursor { background-color: #000000; border-color: #000000; color: #ffffff; }
+.monaco-editor .squiggly-error { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23e51400'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-warning { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%23e9a700'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-info { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%206%203'%20enable-background%3D'new%200%200%206%203'%20height%3D'3'%20width%3D'6'%3E%3Cg%20fill%3D'%2375beff'%3E%3Cpolygon%20points%3D'5.5%2C0%202.5%2C3%201.1%2C3%204.1%2C0'%2F%3E%3Cpolygon%20points%3D'4%2C0%206%2C2%206%2C0.6%205.4%2C0'%2F%3E%3Cpolygon%20points%3D'0%2C2%201%2C3%202.4%2C3%200%2C0.6'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") repeat-x bottom left; }
+.monaco-editor .squiggly-hint { background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20height%3D%223%22%20width%3D%2212%22%3E%3Cg%20fill%3D%22%236c6c6c%22%3E%3Ccircle%20cx%3D%221%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3Ccircle%20cx%3D%229%22%20cy%3D%221%22%20r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E") no-repeat bottom left; }
+.showUnused .monaco-editor .squiggly-inline-unnecessary { opacity: 0.467; }
+.monaco-editor .squiggly-inline-deprecated { text-decoration: line-through; text-decoration-color: #000000}
+.monaco-editor .reference-zone-widget .ref-tree .referenceMatch .highlight { background-color: rgba(234, 92, 0, 0.3); }
+.monaco-editor .reference-zone-widget .preview .reference-decoration { background-color: rgba(245, 216, 2, 0.87); }
+.monaco-editor .reference-zone-widget .ref-tree { background-color: #f3f3f3; }
+.monaco-editor .reference-zone-widget .ref-tree { color: #646465; }
+.monaco-editor .reference-zone-widget .ref-tree .reference-file { color: #1e1e1e; }
+.monaco-editor .reference-zone-widget .ref-tree .monaco-list:focus .monaco-list-rows > .monaco-list-row.selected:not(.highlighted) { background-color: rgba(51, 153, 255, 0.2); }
+.monaco-editor .reference-zone-widget .ref-tree .monaco-list:focus .monaco-list-rows > .monaco-list-row.selected:not(.highlighted) { color: #6c6c6c !important; }
+.monaco-editor .reference-zone-widget .preview .monaco-editor .monaco-editor-background,.monaco-editor .reference-zone-widget .preview .monaco-editor .inputarea.ime-input {	background-color: #f2f8fc;}
+.monaco-editor .reference-zone-widget .preview .monaco-editor .margin {	background-color: #f2f8fc;}
+.monaco-editor .goto-definition-link { color: #0000ff !important; }
+.severity-icon.severity-error { background: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M8.58318%202.02842C9.96435%202.16331%2011.2561%202.77279%2012.2383%203.75307C13.3643%204.87923%2013.9978%206.40584%2014%207.99829C14.0004%209.38617%2013.5196%2010.7313%2012.6396%2011.8045C11.7595%2012.8778%2010.5345%2013.6127%209.17333%2013.8841C7.81215%2014.1556%206.39895%2013.9467%205.1745%2013.2931C3.95005%2012.6394%202.99008%2011.5815%202.45814%2010.2995C1.92619%209.0175%201.85517%207.59072%202.25717%206.26222C2.65917%204.93373%203.50933%203.7857%204.66282%203.0137C5.8163%202.24171%207.20177%201.89351%208.58318%202.02842ZM8.68038%201.03316C10.292%201.19055%2011.7993%201.90184%2012.9453%203.04585C14.2587%204.35938%2014.9976%206.14013%2015%207.99764C15.0005%209.61695%2014.4396%2011.1864%2013.4129%2012.4385C12.3861%2013.6907%2010.9569%2014.5482%209.36889%2014.8648C7.78084%2015.1815%206.13211%2014.9378%204.70359%2014.1752C3.27506%2013.4127%202.1551%2012.1784%201.53449%2010.6828C0.913887%209.18708%200.831027%207.52251%201.30003%205.97259C1.76903%204.42268%202.76089%203.08331%204.10662%202.18265C5.45236%201.28199%207.06873%200.875761%208.68038%201.03316ZM5.52498%205L8.00004%207.47506L10.4751%205L11.1822%205.70711L8.70714%208.18217L11.1818%2010.6569L10.4747%2011.364L8.00004%208.88927L5.52535%2011.364L4.81824%2010.6569L7.29293%208.18217L4.81787%205.70711L5.52498%205Z%22%20fill%3D%22%23a1260d%22%2F%3E%3C%2Fsvg%3E") center center no-repeat; height: 16px; width: 16px; }
+.severity-icon.severity-warning { background: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M14.12%2013.9725L15%2012.5L9.37927%202H7.61924L1.9985%2012.5L2.87852%2013.9725H14.12ZM2.87852%2012.9725L8.49925%202.47249L14.12%2012.9725H2.87852ZM7.98952%206H8.98802V10H7.98952V6ZM7.98952%2011H8.98802V12H7.98952V11Z%22%20fill%3D%22%23ddb100%22%2F%3E%3C%2Fsvg%3E") center center no-repeat; height: 16px; width: 16px; }
+.severity-icon.severity-info { background: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M3%207.5C3%204.46243%205.46243%202%208.5%202C11.5376%202%2014%204.46243%2014%207.5C14%2010.5376%2011.5376%2013%208.5%2013C5.46243%2013%203%2010.5376%203%207.5ZM2%207.5C2%203.91015%204.91015%201%208.5%201C12.0899%201%2015%203.91015%2015%207.5C15%2011.0899%2012.0899%2014%208.5%2014C4.91015%2014%202%2011.0899%202%207.5ZM8%204V5H9V4H8ZM8%206L8%2010H9L9%206H8Z%22%20fill%3D%22%23007acc%22%2F%3E%3C%2Fsvg%3E") center center no-repeat; height: 16px; width: 16px; }
+.severity-icon.severity-ignore { background: url("data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M3%207.5C3%204.46243%205.46243%202%208.5%202C11.5376%202%2014%204.46243%2014%207.5C14%2010.5376%2011.5376%2013%208.5%2013C5.46243%2013%203%2010.5376%203%207.5ZM2%207.5C2%203.91015%204.91015%201%208.5%201C12.0899%201%2015%203.91015%2015%207.5C15%2011.0899%2012.0899%2014%208.5%2014C4.91015%2014%202%2011.0899%202%207.5ZM8%204V5H9V4H8ZM8%206L8%2010H9L9%206H8Z%22%20fill%3D%22%2375beff%22%2F%3E%3C%2Fsvg%3E") center center no-repeat; height: 16px; width: 16px; }
+.monaco-editor .marker-widget a { color: #006ab1; }
+.monaco-editor .hoverHighlight { background-color: rgba(173, 214, 255, 0.15); }
+.monaco-editor .monaco-editor-hover { background-color: #f3f3f3; }
+.monaco-editor .monaco-editor-hover { border: 1px solid #c8c8c8; }
+.monaco-editor .monaco-editor-hover .hover-row:not(:first-child):not(:empty) { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-editor-hover hr { border-top: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-editor-hover hr { border-bottom: 0px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .monaco-editor-hover a { color: #006ab1; }
+.monaco-editor .monaco-editor-hover .hover-row .actions { background-color: #e7e7e7; }
+.monaco-editor .monaco-editor-hover code { background-color: rgba(220, 220, 220, 0.4); }
+.monaco-editor.vs .valueSetReplacement { outline: solid 2px #b9b9b9; }
+.monaco-editor .tokens-inspect-widget { border: 1px solid #c8c8c8; }
+.monaco-editor .tokens-inspect-widget .tokens-inspect-separator { background-color: #c8c8c8; }
+.monaco-editor .tokens-inspect-widget { background-color: #f3f3f3; }
+.monaco-editor .detected-link-active { color: #0000ff !important; }
+.monaco-editor .parameter-hints-widget { border: 1px solid #c8c8c8; }
+.monaco-editor .parameter-hints-widget.multiple .body { border-left: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .parameter-hints-widget .signature.has-docs { border-bottom: 1px solid rgba(200, 200, 200, 0.5); }
+.monaco-editor .parameter-hints-widget { background-color: #f3f3f3; }
+.monaco-editor .parameter-hints-widget a { color: #006ab1; }
+.monaco-editor .parameter-hints-widget code { background-color: rgba(220, 220, 220, 0.4); }
+.monaco-editor .snippet-placeholder { background-color: rgba(10, 50, 100, 0.2); outline-color: transparent; }
+.monaco-editor .finish-snippet-placeholder { background-color: transparent; outline-color: rgba(10, 50, 100, 0.5); }
+.monaco-editor .suggest-widget .monaco-list .monaco-list-row .monaco-highlighted-label .highlight { color: #0066bf; }
+.monaco-editor .suggest-widget { color: #000000; }
+.monaco-editor .suggest-widget a { color: #006ab1; }
+.monaco-editor .suggest-widget code { background-color: rgba(220, 220, 220, 0.4); }
+.monaco-editor .focused .selectionHighlight { background-color: rgba(173, 214, 255, 0.3); }
+.monaco-editor .selectionHighlight { background-color: rgba(173, 214, 255, 0.15); }
+.monaco-editor .wordHighlight { background-color: rgba(87, 87, 87, 0.25); }
+.monaco-editor .wordHighlightStrong { background-color: rgba(14, 99, 156, 0.25); }
+.monaco-diff-editor .diff-review-line-number { color: #237893; }
+.monaco-diff-editor .diff-review-shadow { box-shadow: #dddddd 0 -6px 6px -6px inset; }
+.monaco-editor .line-insert, .monaco-editor .char-insert { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-diff-editor .line-insert, .monaco-diff-editor .char-insert { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-editor .inline-added-margin-view-zone { background-color: rgba(155, 185, 85, 0.2); }
+.monaco-editor .line-delete, .monaco-editor .char-delete { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-diff-editor .line-delete, .monaco-diff-editor .char-delete { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-editor .inline-deleted-margin-view-zone { background-color: rgba(255, 0, 0, 0.2); }
+.monaco-diff-editor.side-by-side .editor.modified { box-shadow: -6px 0 5px -5px #dddddd; }
+
+.mtk1 { color: #000000; }
+.mtk2 { color: #fffffe; }
+.mtk3 { color: #808080; }
+.mtk4 { color: #ff0000; }
+.mtk5 { color: #0451a5; }
+.mtk6 { color: #0000ff; }
+.mtk7 { color: #09885a; }
+.mtk8 { color: #008000; }
+.mtk9 { color: #dd0000; }
+.mtk10 { color: #383838; }
+.mtk11 { color: #cd3131; }
+.mtk12 { color: #863b00; }
+.mtk13 { color: #af00db; }
+.mtk14 { color: #800000; }
+.mtk15 { color: #e00000; }
+.mtk16 { color: #3030c0; }
+.mtk17 { color: #666666; }
+.mtk18 { color: #778899; }
+.mtk19 { color: #ff00ff; }
+.mtk20 { color: #a31515; }
+.mtk21 { color: #4f76ac; }
+.mtk22 { color: #008080; }
+.mtk23 { color: #001188; }
+.mtk24 { color: #4864aa; }
+.mtki { font-style: italic; }
+.mtkb { font-weight: bold; }
+.mtku { text-decoration: underline; text-underline-position: under; }</style><style data-emotion="css"></style><meta property="og:url" id="meta-og-url" content="https://www.hackerrank.com/test/1750dsjf4ql/questions/6tr30aifgek"><meta name="twitter:url" id="meta-twitter-url" content="https://www.hackerrank.com/test/1750dsjf4ql/questions/6tr30aifgek"></head>
+
+  
+
+  <body class="theme-m">
+      
+
+  <!-- Just a placeholder div to start loading open sans and source code loader -->
+  <div class="font-open-sans-loader"></div>
+  <div class="font-source-code-loader"></div>
+  <!-- Just a placeholder div to start loading open sans and source code loader end -->
+
+  <div id="content" onclick="void(0);"><div class="ui-kit-root"><div class="body-wrap base-page test_view-page question_listview-page single_question_view-page"><div class="root-container"><div class="prefetch-assets-wrapper"></div><header class="d-flex flex-column main-header"><nav class="d-flex align-items-center main-header__nav"><div class="justify-content-center"><a href="https://www.hackerrank.com/test/1750dsjf4ql/questions"><img class="d-flex main-header__logo" src="HackerRank1_files/658fd39869cc243bf651d20b8f4d843a.png" alt="proactive-sr-.net-developer"></a></div><div class="d-flex align-items-center main-header__test"><h1 class="main-header__title">proactive-sr-.net-developer</h1><div class="d-flex align-items-center main-header__test-info"><div class="main-header__test-time" aria-label="01 hour 52 mins 01 sec" data-balloon-pos="down">Remaining time <strong class="main-header__timer">01 hour 52 mins</strong><button class="ui-btn ui-btn-normal ui-btn-plain main-header__toggle-timer" aria-label="Hide test timer" data-event-category="Question Details Page" data-event-action="Click" data-event-label="HideRemainingTime"><div class="ui-content align-icon-right"><span class="ui-text">Hide<i class="ui-icon-timer-visibility"></i></span></div></button></div><div class="main-header__test-attempts">Questions Attempted <strong class="main-header__info-text">1 / 17</strong></div><div class="main-header__theme-switch"><button class="ui-icon-btn ui-btn-normal main-header__theme-switch__button" data-balloon="Switch theme" data-balloon-pos="down" aria-label="Switch theme" data-event-category="Question Details Page" data-event-action="Click" data-event-label="SwitchToDarkMode"><svg width="1em" height="1em" viewBox="0 0 24 24" aria-hidden="true" focusable="false" class=" ui-svg-icon" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.603 2.509a1 1 0 0 1-.067 1.086 5.616 5.616 0 0 0 1.18 7.868 5.633 5.633 0 0 0 6.69 0 1 1 0 0 1 1.59.898c-.49 5.238-5.114 9.088-10.357 8.597-5.237-.49-9.087-5.113-8.597-10.355.413-4.564 4.04-8.171 8.597-8.599a1 1 0 0 1 .964.505zM8.845 4.455a7.504 7.504 0 0 0-4.811 6.33v.003c-.388 4.138 2.649 7.79 6.792 8.179a7.504 7.504 0 0 0 7.723-4.819 7.635 7.635 0 0 1-7.022-1.076 7.623 7.623 0 0 1-2.682-8.617z"></path></svg></button></div></div></div><nav class="d-flex userinfo" aria-label="User account options"><div class="dropdown userinfo__dropdown"><div aria-haspopup="menu" class="dropdown-handle align-items-center justify-content-center userinfo__handle"><button class="ui-btn ui-btn-normal ui-btn-plain align-items-center userinfo__name" data-event-category="Question Details Page" data-event-action="Click" data-event-label="ProfileSettings" aria-label="User account options"><div class="ui-content align-icon-right"><span class="ui-text"><i class="ui-icon-user userinfo__icon"></i><span>email@gmail.com </span><i class="ui-icon-arrow-down-filled userinfo__icon"></i></span></div></button></div></div></nav></nav></header><div class="d-flex flex-row test-container"><div class="d-flex question-tab"><ul class="question-tab__list"><li><a class="d-block question-tab__list-item" title="List of Questions" href="https://www.hackerrank.com/test/1750dsjf4ql/questions">ALL</a></li><li><a class="d-block question-tab__list-item" aria-label="See instructions" href="https://www.hackerrank.com/test/1750dsjf4ql/instructions"><i class="ui-icon-info question-tab__list-item-icon"></i></a></li><li class="question-tab__separator"></li></ul><ul class="question-tab__list question-tab__list--scrollable"><li><a class="d-block question-tab__list-item question-tab__list-item--answered question-tab__list-item--active" aria-label="Modify submission of question 1" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/6tr30aifgek">1</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 2" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/18kkjd2kg7f">2</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 3" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/dnpfo3egfr">3</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 4" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/7c2p6fnphjq">4</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 5" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/9pmq2hc4t2s">5</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 6" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/diggm0n7oi1">6</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 7" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/1lbk30i7a7a">7</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 8" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/5fl2r5ggac3">8</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 9" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/472m35d73f8">9</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 10" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/ft54g0hc5hi">10</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 11" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/7gk2hlinm35">11</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 12" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/4h7h1i2qn1p">12</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 13" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/jqmr9l63e7">13</a></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 14" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/80qpffcs81d">14</a></li><li class="question-tab__separator"></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 15" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/9cgjbh3c463">15</a></li><li class="question-tab__separator"></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 16" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/gp7qhla973">16</a></li><li class="question-tab__separator"></li><li><a class="d-block question-tab__list-item" aria-label="Solve question 17" href="https://www.hackerrank.com/test/1750dsjf4ql/questions/6pp2cf6igcd">17</a></li><li class="question-tab__separator"></li></ul></div><div class="d-flex flex-column test-container__content"><div class="question-view question-view--mcq"><div class="grouped-mcq__scroll-window"><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">1. Lazy Loading using Entity Framework </h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="6tr30aifgek-instruction"><p>Which of the following choices corresponds to a query <strong>executed</strong> using Lazy Loading?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio checked"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="6tr30aifgek" theme="theme-m" value="1" checked="checked"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>var cars = dbContext.Cars.FilterBy(e =&gt; e.CarId == carId);</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="6tr30aifgek" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>var cars = dbContext.Cars.FilterBy(e =&gt; e.Brand == "Nissan").Where(x =&gt; x.Year == 2018);</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="6tr30aifgek" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>var cars = dbContext.Cars.FilterBy(e =&gt; e.Brand == "Nissan").Where(x =&gt; x.Year == 2018).ToList();</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="6tr30aifgek" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>var cars = dbContext.Cars.FilterBy(e =&gt; e.Brand == "Nissan").Where(x =&gt; x.Year == 2018).Take(3);</p></div></div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">2. Entity Framework Code First configuration</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="18kkjd2kg7f-instruction"><p>Which
+ of the following Code First options allow you to configure&nbsp;your 
+domain classes to provide Entity Framework with the information it 
+needs?</p>
+
+<p>Select all that apply.</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE OR MORE</strong> options</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="ui-checklist"><ul class="ui-checklist-list"><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="18kkjd2kg7f" value="1"><span class="custom-holder"></span></div><div class="label">DataAttributes</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="18kkjd2kg7f" value="2"><span class="custom-holder"></span></div><div class="label">DataAnnotations</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="18kkjd2kg7f" value="3"><span class="custom-holder"></span></div><div class="label">Fluent Api</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="18kkjd2kg7f" value="4"><span class="custom-holder"></span></div><div class="label">Web Api</div></label></div></div></li></ul></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">3. Dependency Injection Benefits</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="dnpfo3egfr-instruction"><p>Which of the following options describe the benefits of using dependency injection in your application?</p>
+
+<p>Select all that apply.</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE OR MORE</strong> options</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="ui-checklist"><ul class="ui-checklist-list"><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="dnpfo3egfr" value="1"><span class="custom-holder"></span></div><div class="label">Increases code reusability.</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="dnpfo3egfr" value="2"><span class="custom-holder"></span></div><div class="label">Improves application testing.</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="dnpfo3egfr" value="3"><span class="custom-holder"></span></div><div class="label">Increases class coupling.</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="dnpfo3egfr" value="4"><span class="custom-holder"></span></div><div class="label">Increases code maintainability.</div></label></div></div></li></ul></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">4. Printing the Elements of the Stack</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="7c2p6fnphjq-instruction"><p>The output of the following code snippet is:</p>
+
+<pre><code class="language-cs">using System;
+using System.Collections;
+
+namespace Solution
+{
+    class Solution
+    {
+        static void Main(string[] args)
+        {
+            Stack st = new Stack();
+            st.Push(1);
+            st.Push(1.1);
+            st.Push('z');
+            st.Push("Hello");
+            
+            foreach (var e in st)
+            {
+                Console.WriteLine(e);
+            }
+        }
+    }
+}</code>
+</pre>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7c2p6fnphjq" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Compile-Time Error at st.Push(1.1)</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7c2p6fnphjq" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Compile-Time Error at st.Push('z')</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7c2p6fnphjq" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Compile-Time Error at st.Push("Hello")</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7c2p6fnphjq" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>1</p>
+
+<p>1.1</p>
+
+<p>z</p>
+
+<p>Hello</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7c2p6fnphjq" theme="theme-m" value="5"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Hello</p>
+
+<p>z</p>
+
+<p>1.1</p>
+
+<p>1</p></div></div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">5. Function Parameter with Ref Keyword: 2</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="9pmq2hc4t2s-instruction"><p>The output of the following code snippet is:</p>
+
+<pre><code class="language-cs">using System;
+
+namespace Solution
+{
+    class Solution
+    {
+        static void DoTask(ref int i)
+        {
+            i = 6;
+        }
+
+        static void Main(string[] args)
+        {
+            int i = 5;
+            DoTask(ref i);
+            
+            Console.WriteLine(i);
+        }
+    }
+}</code>
+</pre>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="9pmq2hc4t2s" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>0</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="9pmq2hc4t2s" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>6</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="9pmq2hc4t2s" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Compile-Time Error</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="9pmq2hc4t2s" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>Run-Time Error</p></div></div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">6. C# Threads</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="diggm0n7oi1-instruction"><p>Which of the following options will make a newly created Thread to start executing in C#?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="diggm0n7oi1" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">Begin()</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="diggm0n7oi1" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">BeginInvoke()</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="diggm0n7oi1" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">Start()</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="diggm0n7oi1" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">Initialize()</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">7. Student Class Property: Name</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="1lbk30i7a7a-instruction"><p>Consider the following code snippet:</p>
+
+<pre><code class="language-cs">using System;
+
+namespace Solution
+{
+    class Student
+    {
+        private string name = null;
+        
+        /*
+         * Complete the missing code
+         */
+    }
+    
+    class Solution
+    {
+        static void Main(string[] args)
+        {
+            Student student = new Student();
+            student.Name = "Julia";
+            
+            Console.WriteLine(student.Name);
+        }
+    }
+}</code></pre>
+
+<p>Which of the following is correct so the output for the code is <code style="color:black;">Julia</code>?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="1lbk30i7a7a" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>&nbsp; &nbsp; &nbsp; &nbsp; public string Name<br>
+&nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; get<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return name;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; set<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; }</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="1lbk30i7a7a" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>&nbsp; &nbsp; &nbsp; &nbsp; public string Name<br>
+&nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; get<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return name;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; set<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name = value;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; }</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="1lbk30i7a7a" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>&nbsp; &nbsp; &nbsp; &nbsp; public string Name<br>
+&nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; get<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return name;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; set<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Name = value;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; }</p></div></div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="1lbk30i7a7a" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label"><div class="candidate-rich-text"><p>&nbsp; &nbsp; &nbsp; &nbsp; public string Name<br>
+&nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; get<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return Name;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; set<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; name = value;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>
+&nbsp; &nbsp; &nbsp; &nbsp; }</p></div></div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">8. Overloading vs Overriding</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="5fl2r5ggac3-instruction"><p>Which definition corresponds to Overloading and which to Overriding?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE OR MORE</strong> options</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="ui-checklist"><ul class="ui-checklist-list"><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="5fl2r5ggac3" value="1"><span class="custom-holder"></span></div><div class="label">Overloading allows a class to have multiple methods with the same name but with different signature.</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="5fl2r5ggac3" value="2"><span class="custom-holder"></span></div><div class="label">Overriding allows a class to have multiple methods with the same name but with different signature.</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="5fl2r5ggac3" value="3"><span class="custom-holder"></span></div><div class="label">Overloading
+ allows you to invoke functions (that have the same signatures) that 
+belong to different classes in the same hierarchy of inheritance</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="5fl2r5ggac3" value="4"><span class="custom-holder"></span></div><div class="label">Overriding
+ allows you to invoke functions (that have the same signatures) that 
+belong to different classes in the same hierarchy of inheritance.</div></label></div></div></li></ul></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">9. Inheritance</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="472m35d73f8-instruction"><p>From which of the following types can you inherit from?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE OR MORE</strong> options</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="ui-checklist"><ul class="ui-checklist-list"><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="472m35d73f8" value="1"><span class="custom-holder"></span></div><div class="label">Regular class</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="472m35d73f8" value="2"><span class="custom-holder"></span></div><div class="label">Interface</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="472m35d73f8" value="3"><span class="custom-holder"></span></div><div class="label">Abstract class</div></label></div></div></li><li class="ui-checklist-list-item"><div class="ui-checklist-item-wrap"><div class="ui-checkbox theme-m"><label class="label-wrap"><div class="checkbox-wrap"><input type="checkbox" class="checkbox-input" name="472m35d73f8" value="4"><span class="custom-holder"></span></div><div class="label">Struct</div></label></div></div></li></ul></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">10. WebApi Verb for insertion</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="ft54g0hc5hi-instruction"><p>What's the appropriate HTTP Verb used to insert data?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="ft54g0hc5hi" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">GET</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="ft54g0hc5hi" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">POST</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="ft54g0hc5hi" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">PUT</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="ft54g0hc5hi" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">PATCH</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">11. WebApi Authorization</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="7gk2hlinm35-instruction"><p>What's the appropriate Attribute used to verify that a user is correctly logged in?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7gk2hlinm35" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">[Authorization]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7gk2hlinm35" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">[Authorize]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7gk2hlinm35" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">[AllowAnonymous]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="7gk2hlinm35" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">[LoggedIn]</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">12. WebApi Routing</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="4h7h1i2qn1p-instruction"><p>What's the appropriate attribute to specify routing in the controllers?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="4h7h1i2qn1p" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">[Route("url")]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="4h7h1i2qn1p" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">[URL("url")]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="4h7h1i2qn1p" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">[Redirect("url")]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="4h7h1i2qn1p" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">[ControllerAction("url")]</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">13. WebApi CORS</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="jqmr9l63e7-instruction"><p>What's the appropriate attribute to enable CORS for an specific controller method?&nbsp;&nbsp;&nbsp;&nbsp;</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="jqmr9l63e7" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">[Cors(parameters)]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="jqmr9l63e7" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">[CrossDomain(parameters)]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="jqmr9l63e7" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">[EnableCors(parameters)]</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="jqmr9l63e7" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">[BasicCors(parameters)]</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><div><div class="grouped-mcq__hook"></div><section><h1 class="question-view__title">14. Unit Testing</h1></section><section class="question-view__instruction"><div class="candidate-rich-text"><div id="80qpffcs81d-instruction"><p>With Visual Studio's built-in unit testing namespace, which is a correct way to test a predicate?</p>
+</div></div></section><form><div class="solution solution--mcq"><section class="solution__heading"><div class="solution__directive">Pick <strong>ONE</strong> option</div></section><section class="solution__body"><div class="d-flex solution__options-list"><div class="radio-group"><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="80qpffcs81d" theme="theme-m" value="1"><span class="custom-holder"></span></div><div class="label">Review.IsTrue(predicate);</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="80qpffcs81d" theme="theme-m" value="2"><span class="custom-holder"></span></div><div class="label">Assert.IsTrue(predicate);</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="80qpffcs81d" theme="theme-m" value="3"><span class="custom-holder"></span></div><div class="label">UnitTest.IsTrue(predicate);</div></label></div><div class="ui-radio"><label class="label-wrap"><div class="radio-wrap"><input type="radio" class="radio-input" name="80qpffcs81d" theme="theme-m" value="4"><span class="custom-holder"></span></div><div class="label">Validate.IsTrue(predicate);</div></label></div></div></div><button class="ui-btn ui-btn-normal solution__clear-selection" disabled="disabled" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Clear Selection</span></div></button><div class="solution__status-message solution__status-message--none solution__status-message--hidden"><span class="d-flex align-items-center solution__status-message__text"><i class=""></i></span></div></section></div></form></div><section class="grouped-mcq__actions"><button class="ui-btn ui-btn-normal ui-btn-primary" type="button"><div class="ui-content align-icon-right"><span class="ui-text">Continue</span></div></button></section></div></div></div></div></div></div></div></div><!--Required to handle event bubbling of click in ios safari -->
+
+
+    
+
+      <script>
+        window.moment = {
+          tz: {},
+        };
+      </script>
+    
+
+    <script>
+  //HR namespace
+  HR = window.HR || {};
+  HR.development = false;
+  HR.assetPath = 'https://hrcdn.net/candidate-site/assets/';
+  HR.pageLoadTime = Date.now();
+  HR.production = true;
+  HR.devServer = false;
+  HR.isIsomorphic = true;
+  HR.loadedWithOldCss = true;
+  HR.pusher = {"key":"a280047e3b323ccb1b65","cluster":"mt1"};
+</script>
+
+<!-- Vendor scripts -->
