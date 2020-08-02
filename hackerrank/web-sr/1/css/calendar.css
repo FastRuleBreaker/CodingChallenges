@@ -1,0 +1,69 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.weekday{
+  display: flex;
+  padding-left: 1px;
+  padding-right: 1px;
+  margin: 2px;
+  background-color: whitesmoke;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.log-success {
+  display: flex;
+  background-color: lightgreen;
+  flex: 1;
+  border-radius: 1px;
+  padding: 4px;
+  border: 4mm ridge rgba(170, 50, 220, .6);
+}
+.log-fail {
+  display: flex;
+  background-color: lightpink;
+  flex: 1;
+  border-radius: 1px;
+  padding: 4px;
+  border: 4mm ridge rgba(170, 50, 220, .6);
+}
+
+.day {
+  display: flex;
+  height: 90px;
+  border-radius: 5px;
+  margin: 2px;
+  background-color: aliceblue;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.appointment {
+  display: flex;
+  align-items: center ;
+  background-color: darksalmon;
+  border-radius: 5px;
+  margin: 2px;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  overflow: auto;
+}

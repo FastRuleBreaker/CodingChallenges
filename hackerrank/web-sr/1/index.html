@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-framework="javascript">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <script src="js/calendar.js"></script> 
+    <meta charset="utf-8">
+    <title>Calendar App</title>
+  </head>
+  <body>
+    <p>Create an appointment for today or a future date this month</p>
+    <form id="form">
+      <label for="dayInput">Date:</label>
+      <input type="date" required id="dayInput" name="day-date">
+      <label for="nameInput">Name:</label>
+      <input type="text" maxlength="10" required id="nameInput" name="day-date" class='input'>
+      <input type="submit" value="Submit appointment!">
+    </form>
+      <div style='display: inline-flex'>
+        <p id="log"></p>
+      </div>
+      <div class='weekdays'>
+        <div class='weekday' style='grid-column: 1'>Sunday</div>
+        <div class='weekday' style='grid-column: 2'>Monday</div>
+        <div class='weekday' style='grid-column: 3'>Tuesday</div>
+        <div class='weekday' style='grid-column: 4'>Wednesday</div>
+        <div class='weekday' style='grid-column: 5'>Thursday</div>
+        <div class='weekday' style='grid-column: 6'>Friday</div>
+        <div class='weekday' style='grid-column: 7'>Saturday</div>
+      </div>
+      <div id='calendar' class='calendar'></div>
+    <script>
+    </script>
+  </body>
+</html>
