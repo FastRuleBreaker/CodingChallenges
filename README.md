@@ -13,7 +13,7 @@ Some "take home" assignments had multiple parts to complete.
 Some of the directories contain the HTML from the website used for the online challenge,
 you can open these HTMLs and see the complete environment in which the test was taken.
 
-If you are a software developer, then I made this repository for you, but remember 
+If you are a software developer, then I made this repository for you, but always remember, 
 your skills are more important and valuable than an online test
 can ever evaluate.
 
