@@ -8,6 +8,8 @@ I have not taken the time to organize the files and directories, yet?
 
 In general, solutions are categorized in different directories.
 
+Some are unsolved.
+
 Some "take home" assignments had multiple parts to complete.
 
 Some of the directories contain the HTML from the website used for the online challenge,
