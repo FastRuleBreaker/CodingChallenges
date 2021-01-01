@@ -2,6 +2,8 @@
 
 Collection of Coding Challenges from various software companies.
 
+All of the challenges were received after applying to a "Senior" position.
+
 I have not taken the time to organize the files and directories, yet?
 
 In general, solutions are categorized in different directories.
