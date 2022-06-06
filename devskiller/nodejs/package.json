@@ -1,0 +1,19 @@
+{
+  "name": "javascript-social-media-query-2",
+  "version": "1.0.0",
+  "description": "JavaScript Social Media Query 2",
+  "author": "Devskiller",
+  "private": true,
+  "scripts": {
+    "test": "babel-node test",
+    "test:watch": "chokidar \"**/*.js\" -c \"npm test\" --silent --initial --ignore node_modules"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/node": "7.8.7",
+    "@babel/preset-env": "7.9.0",
+    "chokidar-cli": "2.1.0",
+    "jasmine": "3.5.0",
+    "jasmine-reporters": "2.3.2"
+  }
+}
