@@ -1,0 +1,43 @@
+[
+    {
+      "id": "b28c1181-3ce0-4a2e-b44a-2e87bac90921",
+      "title": "Kingsglaive",
+      "subtitle": "Final Fantasy XV",
+      "description": "King Regis, who oversees the land of Lucis, commands his army of soldiers to protect the kingdom from the Niflheim empire's plans to steal the sacred crystal.",
+      "imageUrl": "./Kingsglaive_Final_Fantasy_XV.jpg",
+      "ratings": [2, 4, 5, 1, 2]
+    },
+    {
+      "id": "0e7b012f-f342-4a45-b7f5-86c85f3fc3af",
+      "title": "Final Fantasy",
+      "subtitle": "Spirits Within",
+      "description": "A scientist makes a last stand on Earth with the help of a ragtag team of soldiers against an invasion of alien phantoms.",
+      "imageUrl": "./Final_Fantasy_Spirits_Within.jpg",
+      "ratings": [4, 5, 3]
+    },
+    {
+      "id": "0ed0dd3d-8816-4ee5-aa07-c52b4ea30ce0",
+      "title": "Ghost In The Shell",
+      "subtitle": "Ghost In The Shell",
+      "description": "A hacker known as the Puppet Master is hunted by a female cyborg cop and her partner. This film is a revised version of Ghost in the Shell (1995).",
+      "imageUrl": "./Ghost_In_The_Shell_2_0.jpg",
+      "ratings": [3, 5, 2, 4]
+    },
+    {
+      "id": "4cc30aa5-ebc1-444c-8e5a-718fc8eb1619",
+      "title": "Appleseed Alpha",
+      "subtitle": "Appleseed Alpha",
+      "description": "A young female soldier Deunan and her cyborg partner Briareos survive through the post World War 3 apocalyptic New York in search of human's future hope, the legendary city of Olympus.",
+      "imageUrl": "./Appleseed_Alpha.jpg",
+      "ratings": [2, 4, 3, 2]
+    },
+    {
+      "id": "27621b97-26b4-4f9b-b13f-66dee4606134",
+      "title": "Resident Evil",
+      "subtitle": "Vendetta",
+      "description": "Chris Redfield enlists the help of Leon S. Kennedy and Rebecca Chambers to stop a death merchant, with a vengeance, from spreading a deadly virus in New York.",
+      "imageUrl": "./Resident_Evil_Vendetta.jpg",
+      "ratings": [5, 2, 4, 3]
+    }
+  ]
+  
