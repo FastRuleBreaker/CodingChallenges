@@ -25,3 +25,8 @@ this one bothers you, then please reconsider your notion of **value** in a softw
 Lets just say it takes more time to solve the test than it takes to formulate it.
 
 There is no guarantee that the solutions in this repository are correct.
+
+For `/devskiller` tests, go to the `devskiller-tests-incomplete-initial-state` branch to see the initial state of the tests.
+
+- The `/devskiller/nodejs` is complete on master branch
+- The `/devskiller/reactjs` is passes 1 of the 4 tests suites on master branch
