@@ -14,7 +14,7 @@
     "@babel/preset-env": "7.9.0",
     "chokidar-cli": "2.1.0",
     "jasmine": "3.5.0",
-    "jasmine-reporters": "2.3.2"
+    "jasmine-reporters": "2.5.0"
   },
   "dependencies": {
     "lodash": "^4.17.21"
