@@ -32,4 +32,6 @@ For `/devskiller` tests, go to the `devskiller-tests-incomplete-initial-state` b
 - The `/devskiller/reactjs` is passes 1 of the 4 tests suites on master branch
 
 # Other
-For a Golang + Emberjs challenge you can take a look at https://github.com/Sleepful/customer-data-test
+
+- For a Golang + Emberjs challenge you can take a look at https://github.com/Sleepful/customer-data-test
+- For a Java + Kotlin challenge that solves a [K-way merge](https://en.wikipedia.org/wiki/K-way_merge_algorithm) look at https://github.com/Sleepful/logAggregation
