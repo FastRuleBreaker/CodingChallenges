@@ -33,5 +33,5 @@ For `/devskiller` tests, go to the `devskiller-tests-incomplete-initial-state` b
 
 # Other
 
-- For a Golang + Emberjs challenge you can take a look at https://github.com/Sleepful/customer-data-test
-- For a Java + Kotlin challenge that solves a [K-way merge](https://en.wikipedia.org/wiki/K-way_merge_algorithm) look at https://github.com/Sleepful/logAggregation
+- For a **Golang + Emberjs** challenge you can take a look at [customer-data-test](https://github.com/Sleepful/customer-data-test)
+- For a **Java + Kotlin** challenge that solves a [K-way merge](https://en.wikipedia.org/wiki/K-way_merge_algorithm) look at [logAggregation](https://github.com/Sleepful/logAggregation)
