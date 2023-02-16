@@ -20,9 +20,13 @@ your skills are more important and valuable than an online test
 can ever evaluate.
 
 However, if you are in charge of sending "coding tests" to potential hires and a repository like
-this one bothers you, then please reconsider your notion of **value** in a software developer.
+this one bothers you, then please be mindful of your applicant's time. Here is a quick list to make sure you respect people's time:
 
-Lets just say it takes more time to solve the test than it takes to formulate it.
+- If you send a take-home assignments, it doesn't take more than 3 hours to complete, your assignment is strictly timed to make sure no one takes longer than that.
+- If you send take-home assignments, you send assignments designed by your own company, you do not send automated tests from third-parties. 
+- If you do live-coding in an interview, the interview doesn't take more than 2 hours.
+
+I do not share tests from companies that show careful thought throughout the process.
 
 There is no guarantee that the solutions in this repository are correct.
 
